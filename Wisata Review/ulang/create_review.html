@@ -1,0 +1,243 @@
+<DOCTYPE html!>
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="create_review.css">
+		<title>Wisataku.com</title>
+	</head>
+	
+	<body>
+	
+		<div class="banner" id="up">
+			<table>
+				<td id="logo"><span style="color:crimson";>Wisataku</span>.com</td>
+				<td id="jargon">Going To Holiday Community</td>
+			</table>
+			
+			<div style="margin-top:0.5%;">
+				<ul id="menu1">
+					<li class="navigasi1 lis1"><a class="navigasi1" href="#home">Beranda</a></li>
+					<li class="navigasi1 lis1"><a class="navigasi1" href="#contact">Pencarian</a></li>
+					<li class="navigasi1 lis1" style="background-color:black;">
+						<a class="navigasi1" href="#news">
+							Buat<span style="color:transparent;">_</span>Review
+						</a>
+					</li>
+					<li class="navigasi1 lis1 aktif" style="float:right;"><a class="navigasi1" href="#about">Logout</a></li>
+					<li class="navigasi1 lis1" style="float:right;"><a class="navigasi1" href="#about">Profil</a></li>
+				</ul>
+			</div>
+		</div>
+		
+		<div class="base"><!--Base 1-->
+			<div class="centra"><!--Isi-->
+
+				<div id="note_up">
+					Dengan mengirim review, Anda berarti menyetujui segala ketentuan dan aturan
+					yang berlaku dalam situs <span style="color:crimson";>Wisataku</span>.com
+				</div>
+				
+				<div class="section" id="utama" style="background-color:transparent;"><!--UTAMA-->
+					
+					<div class="judul">
+						<div id="highlight">
+							<input type="text" placeholder="Judul Utama"></input>
+						</div>
+						<div id="lanjutan_highlight">
+							<input type="text" placeholder="Subjudul" style="font-style:italic;"></input>
+						</div>				
+					</div>
+					
+					<div id="main_image" style="margin-bottom:5%;">
+						<div style="margin:auto; width: 40%;">
+							<input type="submit" value="Tambahkan Gambar Utama"></input>
+						</div>
+					</div>
+					
+					<div class="contain" style="margin-top:0;">
+						<div class="bab">Deskripsi</div>
+						
+						<div class="isi">
+							<input type="text" placeholder="Tulis deskripsi tempat wisata" id="teks"></input>
+						</div>
+					</div>
+					
+					
+					
+					<div class="contain" style="margin-top:0;">
+						<div class="bab">Fasilitas</div>
+						
+						<div class="isi">
+							<input type="text" placeholder="Tulis fasilitas yang tersedia" id="teks"></input>
+						</div>
+					</div>
+					
+					
+					
+					<div class="contain" style="margin-top:0;">
+						<div class="bab">Biaya</div>
+						
+						<div class="isi">
+							<input type="text" placeholder="Tulis estimasi biaya yang dibutuhkan" id="teks"></input>
+						</div>
+					</div>
+					
+					
+					
+					
+					<div class="contain" style="margin-top:0;">
+						<div class="bab">Galeri</div>
+						
+						<div class="isi">
+							<div id="main_image">
+								<div style="margin:auto; width: 40%;">
+									<input type="submit" value="Tambahkan Gambar"></input>
+								</div>								
+							</div>
+							
+							<div class="isi" id="notes">
+									Catatan: Anda dapat menambahkan lebih dari satu gambar dalam galeri
+							</div>
+						</div>
+						
+						
+					</div>
+					
+				</div><!--UTAMA-->
+			
+				<div class="section" id="sampingan"><!--SAMPING-->
+					<div class="base" style="margin-top:12%; margin-bottom: 10%">
+							<input type="submit" value="Kirim Review" id="posting"></input>
+					</div>
+					
+					<div class="base" style="background-color:khaki;">					
+						<div class="add_tag">
+							<input type="text" placeholder="Tambahkan Tag" id="add_tag"></input>
+						</div>
+						
+						<div class="btn_tag">
+							<input type="submit" value="+" id="btn_tag"></input>
+						</div>
+						
+						<div class="break"></div>
+					</div>
+					
+					<div class="base break grip_title">
+						Kategori Wisata
+						
+						<div class="dropdown">
+							<select class="choose">
+								<option value="kabupaten">Jenis Wisata</option>
+								<option value="alam">Wisata Alam</option>
+								<option value="edukasi">Wisata Edukasi</option>
+								<option value="kuliner">Wisata Kuliner</option>
+								<option value="religi">Wisata Religi</option>
+								<option value="senbud">Wisata Seni dan Budaya</option>
+							</select>
+						</div>
+						
+						<div class="dropdown">
+							<select class="choose">
+								<option value="kabupaten">Kelengkapan Fasilitas</option>
+								<option value="alam">Kurang Lengkap</option>
+								<option value="edukasi">Memadai</option>
+								<option value="kuliner">Sangat Lengkap</option>
+							</select>
+						</div>
+						
+						<div class="dropdown">
+							<select class="choose">
+								<option value="kabupaten">Biaya</option>
+								<option value="alam">Murah</option>
+								<option value="edukasi">Menengah</option>
+								<option value="kuliner">Mewah</option>
+							</select>
+						</div>						
+					</div>
+					
+					<div class="base break grip_title" style="padding-bottom:6%;">
+						Lokasi Wisata
+						<div class="dropdown">
+							<select class="choose">
+								<option value="provinsi">Provinsi</option>
+								<option value="jakarta">DKI Jakarta</option>
+								<option value="yogyakarta">DIY Yogyakarta</option>
+								<option value="lampung">Lampung</option>
+								<option value="lampung">Manokwari</option>
+							</select>
+						</div>
+						
+						<div class="dropdown">
+							<select class="choose">
+								<option value="kabupaten">Kabupaten/Kota</option>
+								<option value="jakbar">Jakarta Barat</option>
+								<option value="jakpus">Jakarta Pusat</option>
+								<option value="jaksel">Jakarta Selatan</option>
+								<option value="jaktim">Jakarta Timur</option>
+								<option value="jakut">Jakarta Utara</option>
+								<option value="seribu">Kepulauan Seribu</option>
+							</select>
+						</div>
+						
+						
+						<div class="dropdown">
+							<input type="text" placeholder="Alamat Lengkap" id="alamat"></input>
+						</div>
+						
+					</div>
+					
+					<div class="base" style="background-color:lime;">
+						Google Maps
+					</div>
+					
+				</div><!--Samping-->
+			
+			<div class="break"></div>
+			
+			</div><!--Isi-->
+		</div><!--Base 1-->
+		
+		
+		<div class="base" style="background-color:dimgray; padding:3% 0 3% 0;"> <!--Base 2-->
+			<div class="centra">
+				<div class="pic" id="foot1"> <!--style="border-right: 1px solid white; border-left: 1px solid white;"-->
+					# RATING TOP
+					<ul style="margin: 0; padding: 3% 0 0 4%;">
+						<li id="lis_bawah">Pantai Kuta</li>
+						<li id="lis_bawah">Tanah Lot</li>
+						<li id="lis_bawah">Ubud</li>
+						<li id="lis_bawah">Pulau Pramuka</li>
+						<li id="lis_bawah">Pantai Ancol</li>
+					</ul>
+				</div>
+				<div class="pic" id="foot1"> <!--style="border-right: 1px solid white;"-->
+					# KATAKUNCI TERPOPULER
+					<ul style="margin: 0; padding: 3% 0 0 4%;">
+						<li id="lis_bawah">Bali</li>
+						<li id="lis_bawah">Pantai</li>
+						<li id="lis_bawah">Hiking</li>
+						<li id="lis_bawah">Snorkling</li>
+						<li id="lis_bawah">Diving</li>
+					</ul>
+				</div>
+				<div class="pic" id="foot1">
+					# TRAVELER TERKEREN
+					<ul style="margin: 0; padding: 3% 0 0 4%;">
+						<li id="lis_bawah">Cecil</li>
+						<li id="lis_bawah">Zakky M</li>
+						<li id="lis_bawah">Nyoman Nomaden</li>
+						<li id="lis_bawah">Siska Dwi Mulia</li>
+						<li id="lis_bawah">Dhira</li>
+					</ul>
+				</div>
+				
+				<div class="break"></div>
+			</div>
+		</div><!--Base 2-->
+		
+		<div class="base" id="foot">
+				&copy; <span style="color:crimson";>Wisataku</span>.com
+		</div>
+		
+		
+	</body>
+</html>

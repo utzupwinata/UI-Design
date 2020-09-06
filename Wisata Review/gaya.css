@@ -1,0 +1,146 @@
+body{
+	width				: 100%;
+	margin				: 0;
+	padding				: 0;
+	background-color	: none;
+	font-family			: "Times New Roman", Times, serif;
+}
+
+#menu1{
+    list-style-type		: none;
+    margin				: 0;
+	margin-top			: 0%;
+	margin-bottom		: 0%;
+    padding				: 0;
+    overflow			: hidden;
+    background-color	: dimgray;
+    position			: -webkit-sticky; /* Safari */
+    position			: sticky;
+    top					: 0;
+}
+
+.navigasi1{
+	display				: block;
+    color				: white;
+    text-align			: center;
+	text-decoration		: none;
+	padding				: 1%;
+	font-size			: 105%;
+}
+
+.navigasi1:hover {
+    background-color	: #111;
+}
+
+.lis1{
+	float				: left;
+}
+
+.aktif{
+	background-color	: crimson;
+}
+
+#menu2{
+    list-style-type		: none;
+    margin				: 0;
+    padding				: 0;
+    width				: 14.6%;
+    background-color	: #f1f1f1;
+    position			: fixed;
+    height				: 100%;
+    overflow			: auto;
+}
+
+.navigasi2{
+    display				: block;
+    color				: #000;
+    padding				: 2.5%;
+    text-decoration		: none;
+}
+
+.navigasi2 .active {
+    background-color	: #4CAF50;
+    color				: white;
+}
+
+.navigasi2:hover:not(.active) {
+    background-color	: crimson;
+    color				: white;
+}
+
+.container1{
+	width				: 100%;
+	background-color	: black;
+}
+
+.lefty{
+	text-align			: left;
+}
+
+.righty{
+	text-align			: right;
+}
+
+.tabel{
+	border-collapse		: collapse;
+	width				: 100%;
+	margin				: 0;
+}
+
+#icon{
+	margin-top			: 0;
+	margin-bottom		: 0;
+	padding				: 0;
+	background-image	: url("gambar/banner.jpg/");
+}
+
+#icon1{
+	padding-left		: 1%;
+	font-size			: 300%;
+}
+
+#icon2{
+	padding-right		: 1%;
+	padding-bottom		: 0;
+	font-size			: 1.5vw;
+	font-family			: consolas;
+}
+
+.tubuh{
+	width				: 85.4%;
+	margin-left			: 14.6%;
+	padding				: 0%;
+	background-color	: blue;
+}
+
+#trending{
+	margin				: 0;
+	width				: 60%;
+	float				: left;
+}
+
+#hot{
+	text-align			: justify;
+	width				: 25%;
+	float				: left;
+	padding-top			: 5%;
+	padding-left		: 2%;
+	padding-left		: 2%;
+}
+
+.clearbox{
+	width				: 100%;
+}
+
+.clearbox::after{
+	width				: 100%;
+	content				: "";
+    clear				: both;
+    display				: table;
+}
+
+.boxtri{
+	float: left;
+    width: 30%;
+    padding: 0;
+}

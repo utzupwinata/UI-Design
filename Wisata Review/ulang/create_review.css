@@ -1,0 +1,354 @@
+body{
+	margin:0;
+	width:100%;
+	background-color:white;
+}
+
+hr{
+	margin: 0% 5% 0% 5%;
+	border: 0;
+    height: 1px;
+    background: #333;
+    background-image: linear-gradient(to right, #ccc, #333, #ccc);
+}
+
+.break{
+	clear:both;
+}
+
+.base{
+	width:100%;
+	background-color:white;
+}
+
+.centra{
+	width:70%;
+	margin:auto;
+	background:transparent;
+}
+
+.section{
+	float:left;
+}
+
+#utama{
+	width:70%;
+	background-color:white;
+	margin-bottom:8%;
+}
+
+#sampingan{
+	margin-left:2%;
+	width:28%;
+	background-color:white;
+}
+
+/*---------------------Header---------------------*/
+
+.banner{
+	margin:0;
+	width:100%;
+	padding:0;
+}
+
+#up{
+	background-image: url("gambar/banner1.jpg");
+	margin-top:0;
+}
+
+table{
+	border-collapse:collapse;
+	width:100%;
+}
+
+table td{
+	border:none;
+}
+
+#logo{
+	width:49%;
+	padding: 1% 0 0 1%;
+	font-size:350%;
+}
+
+#jargon{
+	width:49%;
+	padding: 2% 1% 1% 0;
+	text-align:right;
+	font-family:consolas;
+	font-size:150%;
+}
+
+/*---------------------Navigasi---------------------*/
+
+
+#menu1{
+    list-style-type		: none;
+    margin				: 0;
+	margin-top			: 0%;
+	margin-bottom		: 0%;
+    padding				: 0;
+    overflow			: hidden;
+    background-color	: dimgray;
+    position			: -webkit-sticky; /* Safari */
+    position			: none;
+	width:100%;
+	margin-top:0;
+    top					: 0;
+}
+
+.navigasi1{
+	display				: block;
+    color				: white;
+    text-align			: center;
+	text-decoration		: none;
+	padding				: 1%;
+	font-size			: 105%;
+}
+
+.navigasi1:hover {
+    background-color	: #111;
+}
+
+.lis1{
+	float				: left;
+}
+
+.aktif{
+	background-color	: crimson;
+}
+
+/*---------------------Footer---------------------*/
+
+
+#foot1{
+	padding-left:3%;
+	width:30.333%;
+	font-size: 110%;
+	color:white;
+	background-color:dimgray;
+	font-weight: 0;
+	color:white;
+	float:left;
+}
+
+#lis_bawah{
+	text-decoration:none;
+	list-style-type:none;
+	font-size: 110%;
+	color: white;
+}
+
+#lis_bawah:hover{
+	color:crimson;
+}
+
+#foot{
+	margin:0;
+	color:white;
+	text-align:center;
+	font-size: 250%;
+	padding-top:1.5%;
+	padding-bottom: 1.5%;
+	background-color:black;
+}
+
+/*---------------------Copy Sampai Sini---------------------*/
+/*---------------------Copy Sampai Sini---------------------*/
+/*---------------------Copy Sampai Sini---------------------*/
+
+input[type=text]{
+	width:100%;
+	padding:1% 2% 1% 2%;
+	border-radius: 10px;
+	font-family:times;
+	font-size:100%;
+	border: 1px solid silver;
+}
+
+input[type=text]:focus{
+	border: 1px solid crimson;
+}
+
+input[type=submit]{
+	width:100%;
+	font-size:120%;
+	font-family:sans-serif;
+	padding: 2%;
+	border-radius: 6px;
+	border: 1px solid seagreen;
+	background-color: seagreen;
+	color:white;
+}
+
+input[type=submit]:hover{
+	background-color: crimson;
+	border: 1px solid crimson;
+	font-size:122%;
+}
+
+/*-------------Judul-------------*/
+
+.judul{
+	width:100%;
+	margin-left:0;
+	margin-right:0;
+	background-color:transparent;
+}
+
+#highlight{
+	margin-top:5%;
+	margin-bottom: 1%;
+	font-size:400%;
+	text-align:left;
+	background-color:transparent;
+}
+
+#lanjutan_highlight{
+	margin-bottom:3%;
+	font-size:215%;
+	text-align:left;
+	font-style: italic;
+	background-color:transparent;
+}
+
+#note_up{
+	margin-top:2%;
+	padding: 3.5%;
+	font-size: 120%;
+	text-align: justify;
+	color: black;
+	background-color: rgba(255, 0, 0, 0.2);
+	border-radius:5px;
+	font-family:sans-serif;
+}
+
+/*-------------Gambar Utama-------------*/
+
+#main_image{
+	width:100%;
+	background-color:gold;
+	padding-top:23%;
+	padding-bottom:23%;
+	background-color:lavender;
+}
+
+#main_image:hover{
+	background-color:gainsboro;
+}
+
+/*-------------Isi Utama-------------*/
+
+.contain{
+	background-color:transparent;
+	margin-bottom:8%;
+}
+
+.bab{
+	padding: 3% 3% 0 3%;
+	background-color:transparent;
+	font-size: 200%;
+	color:crimson;
+	margin-top: 0;
+	margin-bottom: 3%;
+}
+
+.isi{
+	width: 94%;
+	padding: 0;
+	margin:auto;
+	background-color:transparent;
+	font-size:108%;
+	font-family:Sans-serif;
+}
+
+#teks{
+	padding-top:3%;
+	padding-bottom:60%;
+	font-family:sans-serif;
+}
+
+#notes{
+	width:100%;
+	background-color:transparent;
+	margin-top:2%;
+}
+
+/*-------------Isi Sampingan-------------*/
+
+#posting{
+	font-size:150%;
+	border: 1px solid greensea;
+	background-color: greensea;
+	padding-top: 3%;
+	padding-bottom: 3%;
+}
+
+#posting:hover{
+	font-size:160%;
+	border: 1px solid royalblue;
+	background-color: royalblue;
+}
+
+.tag_title{
+	width: 100%;
+	background-color:lightpink;
+}
+
+.add_tag{
+	width:70%;
+	float:left;
+	font-size:110%;
+}
+
+#add_tag{
+	padding:8%;
+	font-size:100%;
+	border-radius: 3px;
+	font-family:sans-serif;
+}
+
+.btn_tag{
+	width:30%;
+	float:right;
+	font-size:175%;
+}
+
+#btn_tag{
+	padding:10%;
+	border-radius:3px;
+	font-size:100%;
+}
+
+.grip_title{
+	width:90%;
+	background-color:wheat;
+	margin-top:10%;
+	font-size:150%;
+	padding-top:7%;
+	padding-left:5%;
+	padding-right:5%;
+	padding-bottom:10%;
+}
+
+.dropdown{
+	margin-top:8%;
+	background-color:transparent;
+	font-size:70%;
+}
+
+select{
+	width:100%;
+	padding:5%;
+	font-family:sans-serif;
+	font-size:100%;
+	border-radius: 5px;
+	border: 1px solid silver;
+}
+
+#alamat{
+	border-radius: 3px;
+	padding: 5%;
+	font-family:sans-serif;
+	padding-bottom: 50%;
+}
